@@ -148,6 +148,7 @@ img {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    gap: 15px;
 }
 
 .main-quote {
@@ -196,8 +197,9 @@ img {
     display: flex;
     height: 50px;
     background-color: darkgray;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
+    flex-wrap: nowrap;
 }
 
 
