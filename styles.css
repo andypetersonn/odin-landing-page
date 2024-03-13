@@ -12,6 +12,13 @@ body {
     padding: 10px;
 }
 
+.logo {
+    border: none;
+    border-radius: 20px;
+    padding: 15px;
+    background-color: white;
+}
+
 .header-left {
     font-size: 20px;
     font-weight: 800;
@@ -23,6 +30,13 @@ ul {
     gap: 15px;
 }
 
+li {
+    border: none;
+    border-radius: 20px;
+    padding: 15px;
+    background-color: white;
+}
+
 a {
     text-decoration: none;
     color: black;
@@ -30,6 +44,10 @@ a {
 
 button {
     border-radius: 10px;
+    padding: 5px 20px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    font-size: 15px;
 }
 .container-one {
     display: flex;
@@ -46,6 +64,7 @@ button {
     flex-direction: column;
     align-items: center;
     width: 400px;
+    gap: 20px;
 }
 
 .info-one {
@@ -79,5 +98,68 @@ button {
 
 .info-two {
     display: flex;
-    border: 3px solid blue;
+    font-weight: 800;
+    font-size: 30px;
+    border: none;
+    border-radius: 20px;
+    background-color: white;
+    padding: 10px;
 }
+
+.cards {
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+    text-align: center;
+}
+
+.card-item {
+    padding: 20px;
+    margin: 15px;
+}
+
+img {
+    border: none;
+    border-radius:60px;
+    padding: 5px;
+    background-color: rgb(255, 255, 255);
+}
+
+.image-text {
+    margin: 15px;
+    font-size: 15px;
+}
+
+.container-three {
+    display: flex;
+    background-color: rgb(238, 238, 238);
+    justify-content: center;
+    height: 400px;
+}
+
+.three {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-quote {
+    font-size: 40px;
+    font-weight: 200;
+}
+
+.quote-author {
+    margin-right: 40px;
+    align-self: flex-end;
+}
+
+.container-four {
+    display: flex;
+    height: 400px;
+    background-color: rgb(49, 49, 49);
+}
+
+
+
+
