@@ -1,0 +1,83 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: darkgray;
+    align-items: center;
+    padding: 10px;
+}
+
+.header-left {
+    font-size: 20px;
+    font-weight: 800;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    gap: 15px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+button {
+    border-radius: 10px;
+}
+.container-one {
+    display: flex;
+    flex-direction: row;
+    background-color: darkgray;
+    gap: 50px;
+    justify-content: center;
+    padding: 50px;
+
+}
+
+.one {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 400px;
+}
+
+.info-one {
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.sub-info-one {
+    font-size: 15px;
+    color: rgb(41, 41, 41);
+    padding: 8px;
+}
+
+.welding-photo {
+    background: whitesmoke;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.container-two {
+    display: flex;
+    background-color: gray;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 40px;
+}
+
+.info-two {
+    display: flex;
+    border: 3px solid blue;
+}
