@@ -15,13 +15,20 @@ body {
 .logo {
     border: none;
     border-radius: 20px;
-    padding: 15px;
+    padding: 10px;
     background-color: white;
+    font-size: 30px;
+    height: 40px;
+    display: flex;
+    align-self: center;
+    
 }
 
 .header-left {
     font-size: 20px;
     font-weight: 800;
+    display: flex;
+    gap: 30px;
 }
 
 ul {
@@ -54,7 +61,7 @@ button {
     flex-direction: row;
     background-color: darkgray;
     gap: 50px;
-    justify-content: center;
+    justify-content: space-evenly;
     padding: 50px;
 
 }
@@ -79,7 +86,6 @@ button {
 }
 
 .welding-photo {
-    background: whitesmoke;
     width: 400px;
     display: flex;
     justify-content: center;
@@ -156,8 +162,42 @@ img {
 
 .container-four {
     display: flex;
-    height: 400px;
+    height: 200px;
     background-color: rgb(49, 49, 49);
+    justify-content: space-around;
+    align-items: center;
+}
+
+.newsletter-left {
+    display: flex;
+    flex-direction: column;
+    border: none;
+    border-radius: 25px;
+    background-color: white;
+    padding: 15px;
+    gap: 20px;
+}
+
+.newsletter-right {
+    display: flex;
+    justify-content: center;
+    border: none;
+    border-radius: 20px;
+    background-color: white;
+    padding: 25px;
+}
+
+.newsletter-title-text {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.footer {
+    display: flex;
+    height: 50px;
+    background-color: darkgray;
+    justify-content: center;
+    align-items: center;
 }
 
 
